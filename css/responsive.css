@@ -1,0 +1,219 @@
+/*---/---/----/---/--/----/-****** large ******-/---/----/----/---/----/----/----*/
+@media (min-width:992px) and (max-width:1199.99px){
+    #banner {
+        height: 665px;
+    }
+    #banner .banner-contant h1 {
+        font-size: 55px;
+        letter-spacing: 24px;
+    }
+    #about {
+        margin: 70px 0 70px;
+    }
+    #about .about_item {
+        padding: 41px;
+    }
+    #service {
+        padding: 60px 0 60px;
+    }
+    #my_work .work_info .overlay {
+        padding: 0px 6px;
+    }
+}
+/*---/---/----/---/--/----/-****** medium ******-/---/----/----/---/----/----/----*/
+@media (min-width:768px) and (max-width:991.99px){
+/*---------------///////// banner start /////////---------------*/
+    #banner {
+        height: 600px;
+    }
+    #banner .banner-contant h4 {
+        font-size: 26px;
+    }
+    #banner .banner-contant h1 {
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    #banner .banner-contant img {
+        margin: 45px auto;
+    }
+    #banner .banner-contant a {
+        padding: 13px 31px;
+    }
+/*---------------///////// banner end /////////---------------*/
+/*---------------///////// about start /////////---------------*/
+    #about {
+        margin: 65px 0 65px;
+    }
+    #about .section_info h2 {
+        font-size: 44px;
+    }
+    #about .section_info p {
+        font-size: 12px;
+        line-height: 34px;
+        padding-top: 13px;
+    }
+    #about .items {
+        padding-top: 25px;
+    }
+    #about .about_item{
+        border-right: 1px solid #7e8287;
+        padding: 0px 98px;
+        margin-top: 50px;
+    }
+    #about .about_item:nth-child(2n){
+        border: none;
+    }
+/*---------------///////// about end /////////---------------*/
+    #service {
+        padding: 60px 0 60px;
+    }
+    #my_work .work_info img {
+        justify-content: space-between;
+    }
+}
+/*---/---/----/---/--/----/-****** small ******-/---/----/----/---/----/----/----*/
+@media (min-width:576px) and (max-width:767.99px){
+/*---------------///////// banner start /////////---------------*/
+    #banner {
+        height: 560px;
+    }
+    #banner .banner-contant h4 {
+        font-size: 24px;
+    }
+    #banner .banner-contant h1 {
+        font-size: 65px;
+        letter-spacing: 9px;
+    }
+    #banner .banner-contant p {
+        font-size: 17px;
+    }
+    #banner .banner-contant img {
+        margin: 33px auto;
+    }
+    #banner .banner-contant a {
+        padding: 13px 31px;
+    }
+/*---------------///////// banner end /////////---------------*/
+/*---------------///////// about start /////////---------------*/
+    #about {
+        margin: 45px 0 25px;
+    }
+    #about .section_info p {
+        font-size: 15px;
+        line-height: 24px;
+        padding-top: 24px;
+    }
+    #about .items {
+        padding-top: 29px;
+    }
+    #about .about_item {
+        border:none;
+        border-bottom:  1px solid #7e8287;
+        padding: 30px 125px;
+    }
+    #about .about_item:last-child{
+        border: none;
+    }
+/*---------------///////// about end /////////---------------*/
+    #service {
+        padding: 50px 50px;
+        background: #f0f0e8;
+    }
+/*---------------///////// my-work start /////////---------------*/
+    #my_work {
+        margin: 45px 0 45px;
+    }
+    #my_work .section_info {
+        padding-bottom: 45px;
+    }
+    #my_work .section_info p {
+        font-size: 15px;
+        line-height: 21px;
+        padding-top: 17px;
+    }
+    #my_work .work_info .overlay {
+        padding: 0 95px;
+        top: 45px;
+        bottom: 45px;
+        left: 60px;
+        right: 60px;
+    }
+/*---------------///////// my-work end /////////---------------*/
+}
+/*---/---/----/---/--/----/-****** extra-small ******-/---/----/----/---/----/----/----*/
+/*---------------///////// banner start /////////---------------*/
+@media (max-width:575.99px){
+    #banner {
+        height: 510px;
+    }
+    #banner .banner-contant h4 {
+        font-size: 18px;
+    }
+    #banner .banner-contant h1 {       
+      font-size: 45px;
+      letter-spacing: 2px;      
+    }
+    #banner .banner-contant p {
+        font-size: 12px;
+    }
+    #banner .banner-contant img {
+        margin: 25px auto;
+    }
+    #banner .banner-contant a {
+        padding: 13px 28px;
+    }
+    #banner .banner-contant a {
+        font-size: 11px;
+    }
+/*---------------///////// banner end /////////---------------*/
+/*---------------///////// about start /////////---------------*/
+    #about {
+        margin: 45px 0 25px;
+    }
+    #about .section_info p {
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 12px;
+    }
+    #about .items {
+        padding-top: 0;
+    }
+    #about .about_item {
+        border:none;
+        border-bottom:  1px solid #7e8287;
+        padding: 40px 65px;
+    }
+    #about .about_item:last-child{
+        border: none;
+    }
+/*---------------///////// about end /////////---------------*/
+#service {
+	padding: 35px 0 35px;
+	background: #f0f0e8;
+}
+#service .section_info p {
+	font-size: 13px;
+	line-height: 22px;
+	padding-top: 13px;
+}
+#my_work {
+	margin: 35px 0 35px;
+}
+#my_work .section_info {
+	padding-bottom: 30px;
+}
+#contact .section_info {
+	padding-bottom: 25px;
+}
+.section_info p {
+	font-size: 14px;
+	line-height: 28px;
+	padding-top: 10px;
+}
+#contact .contact-f {
+	padding: 25px 0 37px;
+}
+#contact .contact-f button {
+	margin-top: 10px;
+}
+}
